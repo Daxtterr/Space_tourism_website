@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+.barlow{
+    font-family: 'Barlow';
+}
+
+.barlowcon{
+    font-family: 'Barlow Condensed';
+}
+
+.bellefair{
+    font-family: 'Bellefair';
+}
+
+
+ #sidebar a.active{
+    border-bottom: 4px solid white;
+}
+
+
+
+#sidebar a.pending{
+    border-bottom: 4px solid red;
+}
+
+
+@media only screen and (max-width: 480px) {
+    #sidebar a.active{
+        border-right: 4px solid white;
+        border-bottom: none;
+    }
+  }
+  
